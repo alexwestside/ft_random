@@ -150,33 +150,6 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/ft_random.dir/build.make CMakeFiles/ft_random.dir/main.c.s
 .PHONY : main.c.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ft_random.dir/build.make CMakeFiles/ft_random.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ft_random.dir/build.make CMakeFiles/ft_random.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ft_random.dir/build.make CMakeFiles/ft_random.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,9 +159,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft_random"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

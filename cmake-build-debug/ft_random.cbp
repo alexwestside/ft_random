@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/o/orizhiy/ClionProjects/ft_random/main.c">
+		<Unit filename="/nfs/2016/o/orizhiy/ClionProjects/ft_random/ft_rand.h">
 			<Option target="ft_random"/>
 		</Unit>
-		<Unit filename="/nfs/2016/o/orizhiy/ClionProjects/ft_random/main.cpp">
+		<Unit filename="/nfs/2016/o/orizhiy/ClionProjects/ft_random/main.c">
 			<Option target="ft_random"/>
 		</Unit>
 		<Unit filename="/nfs/2016/o/orizhiy/ClionProjects/ft_random/CMakeLists.txt">
