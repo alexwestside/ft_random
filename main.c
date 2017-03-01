@@ -1,5 +1,6 @@
 
 //Xn+1 = (a + Xn + b) % m;
+//$ARG="'../usefull/rand 1 100 100'";
 
 #include "ft_rand.h"
 
@@ -14,10 +15,12 @@ int ft_check_dublicate(int rand[], int tmp, int i)
     return (0);
 }
 
+/*
 int *cmp(int *i, int *j)
 {
     return (int *) (*i - *j);
 }
+*/
 
 int main(int ac, char **av)
 {
@@ -42,19 +45,22 @@ int main(int ac, char **av)
     while (++i < how_many)
     {
         tmp = rand() % max + min;
-        while (ft_check_dublicate (random, tmp, i))
+        while (ft_check_dublicate(random, tmp, i))
             tmp = rand() % max + min;
         random[i] = tmp;
     }
     i = -1;
     while(++i < how_many)
-        ft_printf("| %d ", random[i]);
+        ft_printf("%d ", random[i]);
     ft_printf("\n");
+    exit(EXIT_SUCCESS);
+    /*
     i = -1;
     qsort(random, (size_t) how_many, sizeof(int), (int(*)(const void *, const void *)) cmp);
     while(++i < how_many)
         ft_printf("| %d ", random[i]);
     ft_printf("\n%d", i);
+     */
 }
 
 /*
